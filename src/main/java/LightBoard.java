@@ -33,7 +33,7 @@ public class LightBoard
     /* to be implemented in part (b) */
    int count =0;
     for(int r=0;r<lights.length;r++){
-      if(lights[r][col==true){
+      if(lights[r][col]==true){
         count++;
       }
     }
