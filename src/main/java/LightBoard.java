@@ -45,10 +45,9 @@ public class LightBoard
     }else{
       if(count%3==0){
         return true;
-      }else{
-        return lights[row][col];
       }
     }
+    return lights[row][col];
   }
   public boolean[][] getLights()
   {
